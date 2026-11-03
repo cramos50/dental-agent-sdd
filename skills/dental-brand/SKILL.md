@@ -1,41 +1,18 @@
 # Skill: Dental Brand Design
-
 ## Propósito
-Aplicar consistentemente la identidad visual del sistema de gestión de citas del consultorio de la Dra. Laura.
+Experiencia administrativa cálida, limpia, sencilla y profesional.
 
-La aplicación debe transmitir confianza, tranquilidad, limpieza, cercanía y profesionalismo.
-
-## Identidad visual
-
-- Primario: `#2563EB`
-- Secundario: `#14B8A6`
-- Fondo: `#F8FAFC`
-- Superficie: `#FFFFFF`
-- Texto principal: `#0F172A`
-- Texto secundario: `#64748B`
-- Positivo: `#16A34A`
-- Alerta: `#F59E0B`
-- Negativo: `#DC2626`
+## Identidad
+Primario `#2563EB`; secundario `#14B8A6`; fondo `#F8FAFC`; superficie `#FFFFFF`; texto `#0F172A`; secundario `#64748B`; positivo `#16A34A`; alerta `#F59E0B`; negativo `#DC2626`.
 
 ## Tipografía
 Inter, system-ui, sans-serif.
 
-## Componentes
-Botones con esquinas redondeadas y altura mínima de 44 px. Usar tarjetas para las citas y mostrar paciente, hora, estado y acciones.
+## UI
+Dashboard orientado a prioridades. Estados con texto además de color. Controles ≥44px. Mobile-first. Evitar complejidad clínica, exceso de iconos, animaciones y gradientes.
 
-## Estados
-- Pendiente: amarillo/neutro.
-- Confirmada: verde.
-- Cancelada: rojo.
-- Reprogramación solicitada: azul/naranja.
+## Voz
+Cercana, clara y administrativa; evitar lenguaje médico complejo.
 
-Nunca comunicar el estado únicamente mediante color: incluir siempre texto.
-
-## Responsive y accesibilidad
-Diseño mobile-first desde 360 px. Texto mínimo de 14 px, controles de al menos 44 px y contraste suficiente.
-
-## Restricciones
-Evitar animaciones excesivas, gradientes innecesarios, interfaces recargadas y lenguaje médico complejo.
-
-## Principio general
-La asistente debe comprender el estado de las citas en pocos segundos. La claridad operacional tiene prioridad sobre la decoración.
+## Principio
+La asistente debe saber en pocos segundos qué requiere su atención.
