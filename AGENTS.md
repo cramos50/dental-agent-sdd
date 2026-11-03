@@ -1,50 +1,35 @@
 # AGENTS.md
-
 ## Proyecto
+Dental Agent es una solución administrativa para el consultorio dental de la Dra. Laura. Google Calendar sigue siendo la agenda y WhatsApp el canal de comunicación.
 
-Este proyecto desarrolla una solución sencilla de automatización para el consultorio dental de la Dra. Laura.
-
-El problema principal es que aproximadamente el 30% de los pacientes no asiste a sus citas. Actualmente las citas se gestionan correctamente mediante Google Calendar, pero la asistente debe enviar manualmente recordatorios por WhatsApp.
-
-La aplicación debe reducir las inasistencias automatizando la comunicación con los pacientes sin reemplazar Google Calendar ni obligarlos a instalar una aplicación.
+## Problemas prioritarios
+1. Aproximadamente 30% de inasistencia.
+2. Abandono de tratamientos de varias sesiones.
+3. Trabajo manual excesivo de la asistente.
 
 ## Usuarios
+- Dra. Laura: odontóloga y propietaria.
+- Asistente: usuaria operativa principal.
+- Paciente: recibe comunicaciones por WhatsApp sin instalar apps.
 
-### Dra. Laura
-Odontóloga y propietaria del consultorio.
-
-### Asistente
-Gestiona citas y atención administrativa. Necesita identificar rápidamente qué pacientes confirmaron, cancelaron o necesitan atención.
-
-### Paciente
-Recibe comunicaciones mediante WhatsApp y debe poder confirmar, cancelar o solicitar reprogramación fácilmente.
-
-## Principios del proyecto
-
-- Mantener la solución sencilla.
-- Google Calendar continúa siendo la fuente principal de las citas.
-- WhatsApp es el canal principal de comunicación.
-- Los pacientes no deben instalar aplicaciones.
+## Principios
+- Solución sencilla y mobile-first.
 - Automatizar tareas repetitivas.
-- Permitir intervención humana cuando sea necesaria.
+- Priorizar lo que requiere atención hoy.
 - No almacenar información clínica innecesaria.
-- Diseñar primero para dispositivos móviles.
-- Mantener una interfaz clara para usuarios con poca experiencia técnica.
+- Mantener intervención humana.
 
 ## Fuera de alcance
-
-No implementar facturación, historia clínica, diagnósticos, prescripciones, inventario, pagos ni gestión clínica completa.
+Facturación, expediente clínico, diagnósticos, prescripciones, inventario, pagos y gestión clínica completa.
 
 ## Reglas de desarrollo
-
-1. Revisar la especificación antes de implementar o modificar una funcionalidad.
-2. Implementar únicamente lo definido en la spec.
-3. No agregar funcionalidades no solicitadas.
-4. Validar todos los criterios de aceptación.
-5. Si existe una contradicción entre implementación y spec, la spec es la fuente de verdad.
-6. Si la spec resulta incorrecta o insuficiente, corregir primero la spec y luego la implementación.
-7. Mantener separadas la lógica de negocio, interfaz e integraciones externas.
+1. Revisar la spec antes de implementar.
+2. Implementar únicamente lo definido.
+3. Validar todos los criterios de aceptación.
+4. La spec es la fuente de verdad.
+5. Si un criterio resulta incorrecto, corregir primero la spec.
+6. Mantener separadas lógica, interfaz e integraciones.
+7. Usar datos ficticios en el demo.
 
 ## Objetivo
-
-Reducir las inasistencias y el trabajo manual de la asistente mediante automatización de recordatorios y confirmaciones de citas.
+Reducir inasistencias, recuperar tratamientos pendientes y disminuir trabajo manual.
